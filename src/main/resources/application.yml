@@ -1,0 +1,14 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+  data:
+    redis:
+      host: localhost
+      port: 6379
+  cassandra:
+    contact-points: localhost
+    port: 9042
+    keyspace-name: smtp
+    local-datacenter: datacenter1
+smtp:
+  port: 2525
